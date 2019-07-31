@@ -53,7 +53,7 @@ class HomeScreen extends Component {
         petId: this.currentPet().id,
         like: likedPet,
         //placeholder for deviceId
-        userId: 2
+        userId: 1
       });
       this.setState({
         ...this.state,
